@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+body
+{
+    background: #E5E4DC;
+}
 nav{
     position: fixed;
     background: #E5E4DC;
@@ -38,7 +42,7 @@ nav ul li
 
 nav ul li a
 {
-    color: #A76F60;
+    color: #625F40;
     font-size: 18px;
     padding: 7px 13px;
     border-radius: 3px;
@@ -47,7 +51,7 @@ nav ul li a
 
 li a.active, li a:hover
 {
-    background: #A76F60;
+    background: #E59D23;
     transition: .5s;
     color: #E5E4DC;
 }
@@ -55,7 +59,7 @@ li a.active, li a:hover
 .checkbtn
 {
     font-size: 30px;
-    color: #A76F60;
+    color: #625F40;
     float: right;
     line-height: 80px;
     margin-right: 40px;
@@ -63,8 +67,111 @@ li a.active, li a:hover
     display: none;
 }
 
+.videoIndex
+{
+    width: 100%;
+    margin-top: 130px;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    z-index: -50;
+}
 
+section.abajoVideo{
+    background-color: #E5E4DC;
+}
 
+hr
+{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+div.containerh3p
+{
+    margin-top: 40px;
+}
+h3.titulo{
+    font-size: 40px;
+    color: #4B493C;
+    text-align: center;
+   margin-bottom: 20px;
+
+}
+p.contenido
+{
+    font-size: 20px;
+    line-height: 30px;
+    margin-right: 40px;
+    margin-left: 40px;
+    text-align: center;
+    color: #364A21;
+
+}
+img.imgContenido{
+    
+    float: right;
+    width: 450px;
+    margin-right: 40px;
+    margin-top: 15px;
+    margin-left: 40px;
+
+}
+
+.boton {
+    border: none;
+    background: none;
+    
+  }
+  
+  .boton span {
+    padding-bottom: 7px;
+    letter-spacing: 4px;
+    font-size: 14px;
+    padding-right: 15px;
+    text-transform: uppercase;
+  }
+  
+  .boton fa fa-long-arrow-right {
+    transform: translateX(-8px);
+    transition: all 0.3s ease;
+  }
+  
+  .boton:hover fa fa-long-arrow-right {
+    transform: translateX(0);
+  }
+  
+
+  
+  .hover-underline-animation {
+    position: relative;
+    color: #4B493C;
+    padding-bottom: 20px;
+    font-weight: 600;
+  }
+  
+  .hover-underline-animation:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #E59D23;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .boton:hover .hover-underline-animation:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+div.botonFlecha{
+    text-align: center;
+    margin-top: 30px;
+}
 #check{
     display: none;
 }
@@ -109,12 +216,20 @@ li a.active, li a:hover
 
     li a:hover, li a.active
     {
-    background: #A76F60;
+    background: #E59D23;
     color: #E5E4DC;
     }
 
     #check:checked ~ ul
     {
         left:0;
+    }
+}
+
+@media (max-width: 600px){
+    img.imgContenido{
+        float: center;
+        width: 300px;
+
     }
 }
