@@ -49,11 +49,17 @@ nav ul li a
 
 }
 
-li a.active, li a:hover
+li a.active
 {
-    background: #E59D23;
+    background: #625F40;
     transition: .5s;
-    color: #E5E4DC;
+    color: rgb(228,222,206);
+}
+li a:hover
+{
+    background: #625F40;
+    transition: .5s;
+    color: rgb(228,222,206);
 }
 
 .checkbtn
@@ -216,7 +222,7 @@ div.botonFlecha{
 
     li a:hover, li a.active
     {
-    background: #E59D23;
+    background: #625F40;
     color: #E5E4DC;
     }
 
