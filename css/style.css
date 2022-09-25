@@ -432,6 +432,7 @@ footer .ola#ola4
         left: -100%;
         text-align: center;
         transition: all .5s;
+        
     }
 
     nav ul li
@@ -475,11 +476,13 @@ footer .ola#ola4
     footer .iconredsocial{
         margin-left: 620px;
         background-color: #625F40;
+        z-index: -1;
     }
     ul.menu{
         margin-bottom: 120px;
         margin-left: 625px;
         background-color: #625F40;
+        z-index: -1;
     }
     ul.menu li
     {
@@ -503,11 +506,13 @@ footer .ola#ola4
     footer .iconredsocial{
         margin-left: 580px;
         background-color: #625F40;
+        z-index: -1;
     }
     ul.menu{
         margin-bottom: 120px;
         margin-left: 580px;
         background-color: #625F40;
+        z-index: -1;
     }
     ul.menu li
     {
@@ -531,11 +536,13 @@ footer .ola#ola4
     footer .iconredsocial{
         margin-left: 550px;
         background-color: #625F40;
+        z-index: -1;
     }
     ul.menu{
         margin-bottom: 120px;
         margin-left: 550px;
         background-color: #625F40;
+        z-index: -1;
     }
     ul.menu li
     {
@@ -548,11 +555,13 @@ footer .ola#ola4
     footer .iconredsocial{
         margin-left: 1340px;
         background-color: #625F40;
+        z-index: -1;
     }
     ul.menu{
         margin-bottom: 120px;
         margin-left: 1340px;
         background-color: #625F40;
+        z-index: -1;
     }
     ul.menu li
     {
@@ -564,11 +573,13 @@ footer .ola#ola4
     footer .iconredsocial{
         margin-left: 1440px;
         background-color: #625F40;
+        z-index: -1;
     }
     ul.menu{
         margin-bottom: 120px;
         margin-left: 1440px;
         background-color: #625F40;
+        z-index: -1;
     }
     ul.menu li
     {
