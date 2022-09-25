@@ -16,6 +16,7 @@ nav{
     background: rgb(229,224,208);
     height: 130px;
     width: 100%; 
+    z-index: 2000;
 }
 
 .enlace{
@@ -74,7 +75,7 @@ li a:hover
     display: none;
 }
 
-/*.videoIndex
+/*.videoIndex video para página studio
 {
     width: 100%;
     margin-top: 130px;
@@ -84,9 +85,6 @@ li a:hover
     z-index: -50;
 }*/
 
-/*section.abajoVideo{
-    background-color: #E5E4DC;
-}*/
 
 
 .container
@@ -148,6 +146,7 @@ img.imgContenidoleft{
 .boton {
     border: none;
     background: none;
+    cursor: pointer;
   }
   
 .boton span {
@@ -198,6 +197,75 @@ div.botonFlecha{
     text-align: center;
     margin-top: 30px;
 }
+
+
+section.clientes
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+
+}
+
+.clientes .card
+{
+    position: relative;
+    max-width: 350px;
+    height: 180px;
+    background-color: rgb(229,224,208);
+    margin: 30px 10px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+   transition: 0.3s ease-in-out;
+   text-align: center;
+   border-radius: 25px;
+
+}
+
+.clientes .card:hover{
+    height: 550px;
+    background-color: #625F40;
+}
+.stars
+{
+    margin-bottom: 10px;
+}
+.clientes .card .imgBx
+{
+    position: relative;
+    width: 150px;
+    left: 85px;
+}
+
+.clientes .card .contenidoCard
+{
+    position: relative;
+    text-align: center;
+    color: rgb(229,224,208);
+    line-height: 30px;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.clientes .card:hover .contenidoCard
+{
+    visibility: visible;
+    opacity: 1;
+
+    transition-delay: 0.3s;
+}
+
+.clientes .card .imgBx img{
+    max-width: 100%;
+    border-radius: 50%;
+    
+}
+
 
 footer
 {
