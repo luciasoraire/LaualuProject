@@ -476,17 +476,21 @@ footer .ola#ola4
     footer .iconredsocial{
         margin-left: 620px;
         background-color: #625F40;
-        z-index: -1;
+        z-index: 0;
     }
     ul.menu{
         margin-bottom: 120px;
         margin-left: 625px;
         background-color: #625F40;
-        z-index: -1;
+        z-index: 0;
     }
     ul.menu li
     {
         font-size: 12px;
+    }
+    .clientes .card .imgBx
+    {
+        left: 75px;
     }
 }
 
@@ -506,17 +510,21 @@ footer .ola#ola4
     footer .iconredsocial{
         margin-left: 580px;
         background-color: #625F40;
-        z-index: -1;
+        z-index: 0;
     }
     ul.menu{
         margin-bottom: 120px;
         margin-left: 580px;
         background-color: #625F40;
-        z-index: -1;
+        z-index: 0;
     }
     ul.menu li
     {
         font-size: 12px;
+    }
+    .clientes .card .imgBx
+    {
+        left: 65px;
     }
 }
 
@@ -536,32 +544,35 @@ footer .ola#ola4
     footer .iconredsocial{
         margin-left: 550px;
         background-color: #625F40;
-        z-index: -1;
+        z-index: 0;
     }
     ul.menu{
         margin-bottom: 120px;
         margin-left: 550px;
         background-color: #625F40;
-        z-index: -1;
+        z-index: 0;
     }
     ul.menu li
     {
         font-size: 12px;
     }
-
+    .clientes .card .imgBx
+    {
+        left: 55px;
+    }
 }
 @media (650px <= width <= 768px){
 
     footer .iconredsocial{
         margin-left: 1340px;
         background-color: #625F40;
-        z-index: -1;
+        z-index: 0;
     }
     ul.menu{
         margin-bottom: 120px;
         margin-left: 1340px;
         background-color: #625F40;
-        z-index: -1;
+        z-index: 0;
     }
     ul.menu li
     {
@@ -573,13 +584,13 @@ footer .ola#ola4
     footer .iconredsocial{
         margin-left: 1440px;
         background-color: #625F40;
-        z-index: -1;
+        z-index: 0;
     }
     ul.menu{
         margin-bottom: 120px;
         margin-left: 1440px;
         background-color: #625F40;
-        z-index: -1;
+        z-index: 0;
     }
     ul.menu li
     {
