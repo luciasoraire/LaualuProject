@@ -586,3 +586,20 @@ footer .ola#ola4
         font-size: 12px;
     }
 }
+
+/* CSS Laureano */
+#studio-content {
+    display: flex;
+    width: auto;
+    padding-top: 12%;
+}
+#studio-video {
+    float: left;
+    width: 90%;
+    height: 100%;
+}
+#studio-p {
+    float: right;
+    max-width: 45%;
+    border-radius: 3rem;
+}
