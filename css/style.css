@@ -399,14 +399,8 @@ img.imgContenidoLeftPortfolio{
     
 }
 
-.tituloPortfolio{
-    width: 25%;
-    margin-top: 8%;
-}
 
-.sectionPortfolio{
-    text-align: center;
-}
+
 footer
 {
     display: flex;
