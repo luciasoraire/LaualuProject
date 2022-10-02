@@ -705,3 +705,9 @@ i {
     opacity: 1;
     transition-delay: .2s;
 }
+/* CSS nostros.html */
+.caja-notros {
+    display: flex;
+    width: auto;
+    padding-top: 12%;
+}
