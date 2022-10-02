@@ -706,12 +706,25 @@ i {
     transition-delay: .2s;
 }
 /* CSS nostros.html */
-.caja-notros {
-    display: flex;
-    width: auto;
+#caja-nosotros{
     padding-top: 12%;
 }
 #persona{
     display: inline-flex;
-    
+    justify-content: space-around;
+}
+#descripcion-persona {
+    font-size: 100%;
+    text-align: justify;
+    padding: 5% 15%;
+}
+#foto-container {
+    display: flex;
+    align-items: center;
+    padding: 0% 5%;
+}
+#foto-perfil {
+    width:160px;
+    height:160px;
+    border-radius: 100%;
 }
