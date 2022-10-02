@@ -278,32 +278,43 @@ section.clientes
     display: block;
 }
 
-.galeria{
-
-
-   
-}
 
 .galeria img{
-    width: 100%;
+
+    width: 50%;
 
 }
+
+
+.galeria img:hover{
+
+    transform:scale(1.05);
+
+}
+
+.galeria {
+
+text-align: center;
+}
+
 .light-box{
     position: fixed;
-    top: 12.5%;
+    top: 12.8%;
     left: 0;
-    background: rgb(229,224,208);
+    background: rgba(229, 224, 208, 0.63);
     width: 100%;
+    height: 100vh;
     z-index: 5000;
     display: flex;
     justify-content: center;
     align-items: center;
     transform: scale(0);
-    transition: transform .3s ease-in-out;
+    
 }
 
 .light-box img{
-    width: 75vw;
+    margin-bottom: 7%;
+    width: 50vw;
     max-height: 100vh;
 }
 .light-box:target{
@@ -312,7 +323,7 @@ section.clientes
 .close{
     display: block;
     position: absolute;
-    top: 2px;
+    top: 28px;
     right: 150px;
     background-color: #625F40;
     color: rgb(229,224,208);
@@ -326,17 +337,25 @@ section.clientes
 
 .next{
     display: block;
-    position: absolute;
-    top: 2px;
-    right: 150px;
     background-color: #625F40;
     color: rgb(229,224,208);
     text-decoration: none;
     width: 40px;
     height: 40px;
     text-align: center;
+    text-decoration: none;
     line-height: 40px;
     border-radius: 50%;
+    margin-bottom: 100px;
+}
+
+.tituloPortfolio{
+    width: 25%;
+    margin-top: 8%;
+}
+
+.sectionPortfolio{
+    text-align: center;
 }
 footer
 {
