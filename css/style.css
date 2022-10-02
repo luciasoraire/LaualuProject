@@ -711,3 +711,7 @@ i {
     width: auto;
     padding-top: 12%;
 }
+#persona{
+    display: inline-flex;
+    
+}
