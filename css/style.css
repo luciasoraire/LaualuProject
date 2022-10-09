@@ -821,9 +821,9 @@ div h3 {
     transition opacity: .5s;
 }
 
-i {
+/* i {
     opacity: 0;
-}
+} */
 
 .button:focus {
     width: 35px;
@@ -901,9 +901,9 @@ i {
     color: #979797;
     font-size: 1.1rem;
 }
-/* .resenias {
+.resenias_stars {
     color:#E59D23;
-} */
+}
 .caja_top {
     display: flex;
     justify-content: space-between;
