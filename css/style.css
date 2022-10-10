@@ -751,7 +751,7 @@ footer .ola#ola4
 /* Css Contactanos */
 
 .form-content {
-    padding: 9em;
+    padding: 9em 2em;
 }
 
 .contact-wraper {
@@ -794,7 +794,7 @@ div h3 {
 .contact-form form textarea,
 .contact-form form button {
     width: 100%;
-    padding: .7em;
+    padding: .5em;
     border: none;
     background: none;
     resize: none;
@@ -813,24 +813,30 @@ div h3 {
 .contact-form form button:focus{
     background-color: #9a5645c4;
     color: #fff;
-    transition: background-color .5s ease-in-out;
+    transition: background-color .5s ease-out;
 
 }
-.logo-info {
-    width: 230px;
-   
-}
+
 .contact-info{
     padding: 1.4em;
-    }
-.contact-info h4,
+    text-align: center;
+}
+.logo-info {
+    width: 200px;
+}
+
 .contact-info ul,
-.contact-info p,{
+.contact-info p{
+    color: #364A29;
     text-align: center;
     margin: 0 0 1rem 0;
 }
+.contact-info ul>li>i{
+    font-size: 1.7em;
+    color: rgb(229,224,208);
+}
 .contact-info ul li {
-    padding: .3em;
+    padding: .8em;
 }
 /* large screen */
 @media (min-width: 1215px) {
@@ -839,6 +845,12 @@ div h3 {
         grid-template-columns: 2fr 1fr;
     }
     .contact-wraper > * {
-        padding: 1.5em;
+        padding: .8em;
     }
-}
+    .contact-info ul{
+        text-align: start;
+    }
+    .contact-info{
+        font-size: 1em;
+    }
+    } 
