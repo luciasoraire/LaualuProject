@@ -75,18 +75,6 @@ li a:hover
     display: none;
 }
 
-/*.videoIndex video para página studio
-{
-    width: 100%;
-    margin-top: 130px;
-    position: relative;
-    background-size: cover;
-    background-position: center;
-    z-index: -50;
-}*/
-
-
-
 .container
 {
 padding-top: 50px;
@@ -744,6 +732,16 @@ footer .ola#ola4
 }
 /* Css Contactanos */
 
+h3.tituloContacto{
+ 
+        font-size: 40px;
+        color: #4B493C;
+        text-align: center;
+        margin-bottom: 20px;
+
+}
+
+
 .form-content {
     padding: 9em 2em;
 }
@@ -832,6 +830,7 @@ div h3 {
 .contact-info p{
     padding: .8em;
 }
+
 /* large screen */
 @media (min-width: 1215px) {
     .contact-wraper{
