@@ -865,6 +865,85 @@ div h3 {
 hr.nosotros{
     margin-bottom: 40px;
 }
+/* CSS Reseñas */
+.resenias {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    
+}
+.resenias_header {
+    margin-top: 7%;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.resenias_header h1 {
+    font-size: 40px;
+    color: #4B493C;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+.resenias_contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 2%;
+}
+i.fa-solid.fa-star::before{
+    color: #E59D23;
+}
+.resenias_caja {
+    width: 500px;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
+    background-color: rgb(229,224,208);
+    padding: 20px;
+    margin: 15px;
+}
+.perfil_imagen {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 30px;
+}
+.perfil_imagen img {
+    width: 100%;
+    height: 100%;
+    object-fit: center;
+}
+.perfil {
+    display: flex;
+    align-items: center;
+}
+.name_user {
+    display: flex;
+    flex-direction: column;
+}
+.name_user strong {
+    color: #4B493C;
+    font-size: 1.3rem;
+}
+.name_user span {
+    color: #979797;
+    font-size: 1.1rem;
+}
+
+.caja_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.comentarios_clientes p{
+    color: #4B493C;
+}
 /* large screen */
 @media (min-width: 1215px) {
     .contact-wraper{
