@@ -75,15 +75,6 @@ li a:hover
     display: none;
 }
 
-/*.videoIndex video para página studio
-{
-    width: 100%;
-    margin-top: 130px;
-    position: relative;
-    background-size: cover;
-    background-position: center;
-    z-index: -50;
-}*/
 
 
 
@@ -731,6 +722,8 @@ footer .ola#ola4
     display: flex;
     width: auto;
     padding-top: 12%;
+    padding-bottom: 6%;
+    
 }
 #studio-video {
     float: left;
@@ -741,6 +734,10 @@ footer .ola#ola4
     float: right;
     max-width: 45%;
     border-radius: 3rem;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #364A21;
 }
 /* Css Contactanos */
 
