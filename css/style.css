@@ -75,6 +75,18 @@ li a:hover
     display: none;
 }
 
+/*.videoIndex video para página studio
+{
+    width: 100%;
+    margin-top: 130px;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    z-index: -50;
+}*/
+
+
+
 .container
 {
 padding-top: 50px;
@@ -394,7 +406,7 @@ footer
     justify-content: flex-end;
     align-items: center;
     flex-direction: column;
-    margin-top: 200px;
+    margin-top: 110px;
 }
 
 footer .iconredsocial,
@@ -732,33 +744,33 @@ footer .ola#ola4
 }
 /* Css Contactanos */
 
-h3.tituloContacto{
- 
-        font-size: 40px;
-        color: #4B493C;
-        text-align: center;
-        margin-bottom: 20px;
-
+.tituloContacto{
+    font-size: 40px;
+    color: #4B493C;
+    text-align: center;
+    margin-bottom: 20px;
 }
-
-
 .form-content {
-    padding: 9em 2em;
+    padding-top: 170px;
+    padding-bottom: 10px;
 }
 
 .contact-wraper {
     max-width: 1170px;
     margin-left: auto;
     margin-right: auto;
-    padding: 1.5em;
-    box-shadow: 0 0 20px rgba(105, 103, 105, 0.288);
+    margin-top: 7px;
+    padding: 1em;
+
+    box-shadow: 0 0 20px rgba(105, 103, 105, 0.158);
     border-radius: 5px;
 
 }
 
 .contact-info {
-    background-color: #9a5645c4;
-    border-radius: 3px;
+    background-color: #625F40;
+    border-radius: 7px;
+  
 
 }
 
@@ -778,8 +790,8 @@ div h3 {
 .contact-form form p{
     margin: 0;
     padding: 1em;
-    color: #8A9D77;
-    font-size: 1em;
+    color: #4B493C;
+    font-size: 20px;
 }
 
 .contact-form form input,
@@ -791,23 +803,10 @@ div h3 {
     background: none;
     resize: none;
     outline: 0;
-    border-bottom: 2px solid #c8766265;
+    border-bottom: 1px solid #625F40;
 }
-.contact-form form button{
-    background: #c8766265;
-    color: #8A9D77;
-    border: 0;
-    border-radius: 6px;
-    text-transform: uppercase;
-    padding: 1em;
-}
-.contact-form form button:hover,
-.contact-form form button:focus{
-    background-color: #9a5645c4;
-    color: #fff;
-    transition: background-color .5s ease-out;
 
-}
+
 
 .contact-info{
     padding: 1.4em;
@@ -828,9 +827,8 @@ div h3 {
     color: rgb(229,224,208);
 }
 .contact-info p{
-    padding: .8em;
+    padding: .2em;
 }
-
 /* large screen */
 @media (min-width: 1215px) {
     .contact-wraper{
@@ -841,9 +839,14 @@ div h3 {
         padding: .8em;
     }
     .contact-info p{
-        text-align: start;
+        text-align: center;
     }
     .contact-info{
         font-size: 1em;
     }
     } 
+@media (max-width: 820px){
+    div.contact-info{
+        margin-top: 50px;
+    }
+}
