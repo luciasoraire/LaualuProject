@@ -813,11 +813,24 @@ div h3 {
 
 
 .contact-info{
-    padding: 1.4em;
+    padding: 3em;
+    width: 100%;
     text-align: center;
+
 }
 .logo-info {
-    width: 200px;
+    width: 150px;
+    border-radius: 50%;
+    
+    margin-bottom: 10%;
+   
+}
+section.container-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
 }
 
 .contact-info,
