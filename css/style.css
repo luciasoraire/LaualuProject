@@ -863,9 +863,31 @@ section.container-info{
     grid-gap: 15px;
     margin: 0 auto;
     padding-top: 10%;
-    padding-bottom: 7%;
+    
 }
+h3.tituloShopProcreate{
+        font-size: 40px;
+        color: #4B493C;
+        text-align: center;
+        margin-top: 50px;
+    }
 
+    img.imgContenidoleftShop{
+
+        float: right;
+        width: 400px;
+        margin-top: 20px;
+        margin-left: 30px;
+    
+    }
+    img.imgContenidoleftShopSketching{
+
+        float: left;
+        width: 400px;
+        margin-top: 20px;
+        margin-right: 30px;
+    
+    }
 .containercard .card{
     position: relative;
     width: 300px;
