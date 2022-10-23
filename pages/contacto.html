@@ -24,60 +24,85 @@
                 <img src="../img/Laualú-05.png" alt="" class="logoLaualuIndex" />
             </a>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="">Portfolio</a></li>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="./portfolio.html">Portfolio</a></li>
                 <li><a href="#">Exhibiciones</a></li>
-                <li><a href="#">Shop</a></li>
-                <li><a href="">Studio</a></li>
+                <li><a href="./shop.html">Shop</a></li>
+                <li><a href="./studio.html">Studio</a></li>
                 <li><a class="active" href="#">Contacto</a></li>
             </ul>
         </nav>
     </header>
 <main>
-    <div class="form-content">
+    <div >
         <div class="contact-wraper">
-            <div class="contact-form">
+            <div>
                 <h3 class="tituloContacto">Contáctanos</h3>
-                <form action="">
-                    <p>
-                        <label for="names">Nombre</label>
-                        <input type="text" name="names" id="" >
-                    </p>
-
-                    <p>
-                        <label for="phone">Teléfono</label>
-                        <input type="tel" name="phone" id="">
-                    </p>
-
-                    <p>
-                        <label for="email">e-Mail</label>
-                        <input type="email" name="email" id="">
-                    </p>
-
-                    <p>
-                        <label for="asunto">Asunto</label>
-                        <input type="text" name="asunto" id="">
-                    </p>
-
-                    <p class="block">
-                        <label for="mensaje">Deja tu mensaje</label>
-                        <textarea name="mensaje" id="" rows="4"></textarea>
-                    </p>
-
-                    
+                <form action="" class="formulario" id="formulario">
+                    <div class="formulario__grupo" id="grupo__nombre">
+                        <label for="nombre" class="formulario__label">Nombre</label>
+                        <div class="formulario__grupo-input">
+                            <input type="text" class="formulario__input" name="nombre" id="nombre" placeholder="John Doe">
+                            <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                        </div>
+                        <p class="formulario__input-error">El usuario tiene que ser de 4 a 16 dígitos y solo puede contener numeros, letras y guion bajo.</p>
+                    </div>
+                    <div class="formulario__grupo" id="grupo__telefono">
+                        <label for="telefono" class="formulario__label">Teléfono</label>
+                        <div class="formulario__grupo-input">
+                            <input type="text" class="formulario__input" name="telefono" id="telefono" placeholder="4491234567">
+                            <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                        </div>
+                        <p class="formulario__input-error">El telefono solo puede contener numeros y el maximo son 14 dígitos.</p>
+                    </div>
+                    <div class="formulario__grupo" id="grupo__email">
+                        <label for="email" class="formulario__label">Correo Electrónico</label>
+                        <div class="formulario__grupo-input">
+                            <input type="email" class="formulario__input" name="email" id="email" placeholder="correo@correo.com">
+                            <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                        </div>
+                        <p class="formulario__input-error">El correo solo puede contener letras, numeros, puntos, guiones y guion bajo.</p>
+                    </div>
+                    <div class="formulario__grupo" id="grupo__asunto">
+                        <label for="asunto" class="formulario__label">Asunto</label>
+                        <div class="formulario__grupo-input">
+                            <input type="text" class="formulario__input" name="asunto" id="asunto" placeholder="Asunto máx. 60 caracteres"">
+                            <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                        </div>
+                        <p class="formulario__input-error">El asunto tiene que menor a 60 caracteres.</p>
+                    </div>
+                    <div class="formulario__grupo" id="grupo__mensaje">
+                        <label for="mensaje" class="formulario__label">Mensaje</label>
+                        <div class="formulario__grupo-input">
+                            <input type="text" class="formulario__input" name="mensaje" id="mensaje" placeholder="Mensaje máx. 250 caracteres">
+                            <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                        </div>
+                        <p class="formulario__input-error">El mesaje tiene que menor a 250 caracteres.</p>
+                    </div>     
+                    <div class="formulario__mensaje" id="formulario__mensaje">
+                        <p><i class="fas fa-exclamation-triangle"></i> <b>Error:</b> Por favor rellena el formulario correctamente. </p>
+                    </div>
+                    <div class="formulario__grupo formulario__grupo-btn-enviar">
+                        <button type="submit" class="formulario__btn">Enviar</button>
+                        <p class="formulario__mensaje-exito" id="formulario__mensaje-exito">Formulario enviado exitosamente!</p>
+                    </div>              
                 </form>
-                <div class="botonFlecha">
+                <!-- <div class="botonFlecha">
                     <button class="boton">
                       <span class="hover-underline-animation">
                         Enviar
                       </span>
                       <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
                     </button>
-                  </div>
+                  </div> -->
             </div>
             <section class="container-info">
+
             <div class="contact-info">
-                <img src="../img/LaualúContact.png" alt="" class="logo-info">
+                <!-- <img src="../img/LaualúContact.png" alt="" class="logo-info"> -->
+                <div id="map"></div>
+                <script src="../script.js"></script>
+                <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=iniciarMap"></script>
                 
                     <p><i class="fa fa-map-marker" aria-hidden="true"></i> Buenos Aires, Argentina</p>
                     <p><i class="fa fa-phone" aria-hidden="true"></i> 11-154-542625</p>
@@ -103,12 +128,12 @@
             <li><a href="#"><i class="fa fa-inbox" aria-hidden="true"></i></i></a></li>
         </ul>
         <ul class="menu">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Reseñas</a></li>
-            <li><a href="#">Contacto</a></li>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="./nosotros.html">About us</a></li>
+            <li><a href="./resenias.html">Reseñas</a></li>
+            <li><a href="./contacto.html">Contacto</a></li>
         </ul>
         <p>©2022 Laualú | All Rights Reserved</p>
     </footer>
-    <!-- <script src="https://kit.fontawesome.com/032e1f6036.js" crossorigin="anonymous"></script> -->
+	<script src="../formulario.js"></script>
 </body>
