@@ -1393,7 +1393,16 @@ i.fa-solid.fa-star::before {
         font-size: 12px;
     }
 }
+@media (300px <=width <=400px) {
 
+
+    footer .iconredsocial{
+        font-size: 15px;
+    }
+    ul.menu li {
+        font-size: 10px;
+    }
+}
 @media (769px <=width <=820px) {
 
     footer .iconredsocial {
